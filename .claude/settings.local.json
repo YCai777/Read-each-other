@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:www.shopify.com)",
+      "mcp__Claude_Preview__preview_start",
+      "Bash(/usr/local/bin/npx --version)",
+      "Read(//usr/local/bin/**)",
+      "Read(//usr/local/**)",
+      "Read(//opt/homebrew/**)",
+      "Bash(/usr/local/bin/node -e \"const http=require\\(''http''\\),fs=require\\(''fs''\\),path=require\\(''path''\\);console.log\\(''node works''\\)\")"
+    ]
+  }
+}
